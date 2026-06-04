@@ -1,5 +1,9 @@
-site_name: Mon Second Cerveau
-site_description: Notes de Cybersécurité & Sport.
+docs_dir: '.'
+exclude_docs:
+  - '.github/**/*'
+  - 'README.md'
+site_name: CapsuleWiki
+site_description: Notes Cybersécurité & Sport
 
 theme:
   name: material
