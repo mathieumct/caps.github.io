@@ -1,13 +1,9 @@
-docs_dir: '.'
-exclude_docs: |
-  .github/**/*
 site_name: CapsuleWiki
 site_description: Notes Cybersécurité & Sport
 
 theme:
   name: material
   palette:
-    # Mode clair par défaut bascule en mode sombre automatique
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -23,9 +19,9 @@ theme:
         icon: material/brightness-4
         name: Passer au mode clair
   features:
-    - navigation.tabs # Menu horizontal en haut
-    - search.suggest # Suggestions dans la barre de recherche
-    - search.highlight # Surligne les mots recherchés
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
 
 plugins:
   - search
