@@ -1,7 +1,6 @@
 docs_dir: '.'
-exclude_docs:
-  - '.github/**/*'
-  - 'README.md'
+exclude_docs: |
+  .github/**/*
 site_name: CapsuleWiki
 site_description: Notes Cybersécurité & Sport
 
